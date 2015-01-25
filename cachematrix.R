@@ -1,4 +1,5 @@
 ## Angel Castillo
+## Final solution
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -13,9 +14,6 @@ makeCacheMatrix <- function(x = matrix()) {
           setinverse = setinverse
           getinverse = getinverse)
 }
-
-
-
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
